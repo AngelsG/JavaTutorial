@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PersonTest {
 
+
     @Test
     public void shouldReturnHelloWorld(){
 
@@ -30,4 +31,30 @@ public class PersonTest {
 
         assertEquals(3, Person.numberOfPersons());
     }
+
+    @Test
+    public void demonstrateBoolean(){
+        boolean monday = false;
+        boolean raining = true;
+        boolean tuesday = true;
+        boolean sunny = true;
+        boolean friday = true;
+
+        if(monday) {
+            drinkbeer();
+        } else if (friday) {
+            drinkWater();
+        } else{
+            drinkMilk();
+        }
+    }
+
+    private void drinkbeer() {
+    }
+    private void drinkWater() {
+    }
+    private void drinkMilk() {
+
+    }
 }
+

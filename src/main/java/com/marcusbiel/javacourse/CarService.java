@@ -11,7 +11,7 @@ public class CarService {
 
     public void process (String input) {
 
-        log.debug("processing car:" + input);
+        log.debug("processing car:", input);
 
         }
     }

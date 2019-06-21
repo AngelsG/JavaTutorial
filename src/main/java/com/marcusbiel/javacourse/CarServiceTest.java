@@ -6,7 +6,7 @@ public class CarServiceTest {
 
     @Test
     public void shouldDemonstrateLogging() {
-        CarService carService = new CarService();
+        com.marcusbiel.javacourse.CarService carService = new com.marcusbiel.javacourse.CarService();
         carService.process("BMW");
     }
 }

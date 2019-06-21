@@ -1,4 +1,4 @@
-package com.marcusbiel.javacourse;
+package main.java.com.marcusbiel.javacourse;
 public enum LoggingLevel {
 
     PENDING(1), PROCESSING(2), PROCESSED(3);

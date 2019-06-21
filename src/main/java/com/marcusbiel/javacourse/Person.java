@@ -2,10 +2,10 @@ package com.marcusbiel.javacourse;
 
 public class Person {
 
-    private Name personName;
+    private com.marcusbiel.javacourse.Name personName;
     private static int personCounter;
 
-    public Person(Name personName){
+    public Person(com.marcusbiel.javacourse.Name personName){
         this.personName  = personName;
 
 
@@ -19,7 +19,7 @@ public class Person {
         return "Hello World";
     }
 
-    public Name name(){
+    public com.marcusbiel.javacourse.Name name(){
         return personName;
     }
 
